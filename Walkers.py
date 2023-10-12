@@ -2,10 +2,10 @@ import cv2
 
 
 # Create our body classifier
-body_classifier = cv2.CascadeClassifier('PRO-106-ProjectTemplate-main\haarcascade_fullbody.xml')
+body_classifier = cv2.CascadeClassifier('p106-main\haarcascade_fullbody.xml')
 
 # Initiate video capture for video file
-cap = cv2.VideoCapture('PRO-106-ProjectTemplate-main\walking.avi')
+cap = cv2.VideoCapture('p106-main\walking.avi')
 
 # Loop once video is successfully loaded
 while True:
